@@ -1,6 +1,6 @@
 # Architecture
 
-Floworx is a an architecture for Streaming Analytics with a flexible way to build Machine Learning pipelines as well as provide polyglot persistence. The current version supports NoSQL, HDFS and Graph DBs. Floworx borrows from the [Lambda Architecture](https://en.wikipedia.org/wiki/Lambda_architecture), but focuses more on the Speed Layer.
+Dataworx is a an architecture for Streaming Analytics with a flexible way to build Machine Learning pipelines as well as provide polyglot persistence. The current version supports NoSQL, HDFS and Graph DBs. Dataworx borrows from the [Lambda Architecture](https://en.wikipedia.org/wiki/Lambda_architecture), but focuses more on the Speed Layer.
 
 The following is an implementation of this architecture (version 1.0) which supports the following:
 
@@ -14,7 +14,7 @@ The following is an implementation of this architecture (version 1.0) which supp
 
 # Deployment and Test environment
 
-At this time Floworx does not provide a deployment automation solution, but the following projects were leveraged to build and test data flows on AWS and GCE (Google Compute Engine):
+At this time Dataworx does not provide a deployment automation solution, but the following projects were leveraged to build and test data flows on AWS and GCE (Google Compute Engine):
 
 - Cloud Foundry BOSH was used as the primary deployment automation tool with releases - [spark-boshrelease](https://github.com/murraju/spark-boshrelease), [kafka-boshrelease](https://github.com/murraju/kafka-boshrelease), [zookeeper-boshrelease](https://github.com/murraju/zookeeper-boshrelease), [mesos-boshrelease](https://github.com/murraju/mesos-boshrelease), and others.
 
