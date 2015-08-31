@@ -42,7 +42,7 @@ Take note when using the ``run*.sh`` scripts provided with the project. They are
 
 # Credits
 
-- Created by [Martin Zhu](http://xytosis.github.io)
+- Created by [Martin Zhu](http://martinjzhu.com)
 - Guidance provided by the Office of the CTO, [Velankani Information Systems, Inc.](http://velankani.net) and [Murali Raju](http://about.me/muraliraju), CTO, Velankani Information Systems, Inc.
 
 # License 
